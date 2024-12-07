@@ -3,10 +3,6 @@
 [credential "https://github.com"]
 	username = chrberrig
 	helper = "!f() { test \"$1\" = get && echo \"password=$(pass github.com/chrberrig)\"; }; f"
-[credential "https://git.overleaf.com/"]
-	username = chrberrig@protonmail.com
-	# username = 654caf9797a880f97afe77da
-	helper = "!f() { test \"$1\" = get && echo \"password=$(pass overleaf/chrberrig@protonmail.com)\"; }; f"
 [user]
 	name = Christian Berrig
 	email = chrberrig@protonmail.com
