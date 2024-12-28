@@ -17,8 +17,8 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'preservim/nerdtree'
 Plugin 'JuliaEditorSupport/julia-vim' " for julia support in vim
 Plugin 'eigenfoo/stan-vim' " for STAN-support in vim
-Plugin 'jpalardy/vim-slime' " dependency for Ipython-Cell
-Plugin 'hanschen/vim-ipython-cell' " run python code interactively in vim and make virtual cells
+" Plugin 'jpalardy/vim-slime' " dependency for Ipython-Cell
+" Plugin 'hanschen/vim-ipython-cell' " run python code interactively in vim and make virtual cells
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.

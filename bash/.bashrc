@@ -123,3 +123,7 @@ export CMDSTAN="/home/chrberrig/Documents/Coding_fun/cmdstan-2.35.0/"
 
 # Created by `pipx` on 2024-10-10 18:06:56
 export PATH="$PATH:/home/chrberrig/.local/bin"
+
+# Sets default edditor as vim:
+export EDITOR=vim
+
