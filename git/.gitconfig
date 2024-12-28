@@ -1,8 +1,8 @@
 [core]
 	askpass = pass
 [credential "https://github.com"]
-	helper = "!f() { test \"$1\" = get && echo \"password=$(pass github.com/chrberrig | sed -n 1p)\"; }; f"
-	username = "!f() { test \"$1\" = get && echo \"password=$(pass github.com/chrberrig | sed -n 2p | cut -d ' ' -f 2)\"; }; f"
+	helper = "!f() { test \"$1\" = get && echo \"password=$(pass github/personal | sed -n 1p)\"; }; f"
+	username = "!f() { test \"$1\" = get && echo \"password=$(pass github/personal | sed -n 2p | cut -d ' ' -f 2)\"; }; f"
 [user]
 	name = Christian Berrig
 	email = chrberrig@protonmail.com
