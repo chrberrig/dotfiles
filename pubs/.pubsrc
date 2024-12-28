@@ -2,10 +2,10 @@
 [main]
 
 # Where the pubs repository files (bibtex, metadata, notes) are located
-pubsdir = /home/berrig/.pubs
+pubsdir = /home/chrberrig/.pubs
 
 # Where the documents files are located (default: $(pubsdir)/doc/)
-docsdir = /home/berrig/.pubs/doc
+docsdir = /home/chrberrig/.pubs/doc
 
 # Specify if a document should be copied or moved in the docdir, or only
 # linked when adding a publication.
